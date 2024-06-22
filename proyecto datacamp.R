@@ -2,8 +2,8 @@
 library(tidyverse)
 
 # Leer los archivos CSV desde GitHub y suprimir el mensaje de tipo de columna
-yearly <- read_csv('https://raw.githubusercontent.com/shukkkur/Analyzing-The-Discovery-of-Handwashing/main/datasets/yearly_deaths_by_clinic.csv', show_col_types = FALSE)
-monthly <- read_csv('https://raw.githubusercontent.com/shukkkur/Analyzing-The-Discovery-of-Handwashing/main/datasets/monthly_deaths.csv', show_col_types = FALSE)
+yearly <- read_csv('https://raw.githubusercontent.com/saga1555/Morales_Rstudio/main/yearly_deaths_by_clinic.csv', show_col_types = FALSE)
+monthly <- read_csv('https://raw.githubusercontent.com/saga1555/Morales_Rstudio/main/monthly_deaths.csv', show_col_types = FALSE)
 
 # Recuperar la especificación completa de las columnas de los datos anuales
 yearly_spec <- spec(yearly)
